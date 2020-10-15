@@ -42,8 +42,8 @@ class Berita extends \yii\db\ActiveRecord
                 'tagClass' => Tag::className(),
                 'junctionTable' => 'tag_berita',
                 'nameAttribute' => 'nama_tag',
-                'modelKeyAttribute' => 'id_berita',
-                'tagKeyAttribute' => 'id_tag',
+                'modelKeyColumn' => 'id_berita',
+                'tagKeyColumn' => 'id_tag',
             ]
         ] ;
     }
