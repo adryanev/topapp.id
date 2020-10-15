@@ -44,6 +44,7 @@ class Tag extends \yii\db\ActiveRecord
                 'junctionTable' => ['tag_berita'],
                 'nameAttribute' => 'nama_tag',
                 'tagKeyColumn' => 'id_tag',
+                'modelClass'=>Berita::class
 
             ]
         ];
