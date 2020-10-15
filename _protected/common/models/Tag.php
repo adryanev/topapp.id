@@ -43,7 +43,7 @@ class Tag extends \yii\db\ActiveRecord
                 'class' => TagBehavior::className(),
                 'junctionTable' => ['tag_berita'],
                 'nameAttribute' => 'nama_tag',
-                'tagKeyAttribute' => 'id_tag',
+                'tagKeyColumn' => 'id_tag',
 
             ]
         ];
