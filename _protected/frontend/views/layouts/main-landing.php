@@ -27,6 +27,7 @@ use yii\helpers\Html; ?>
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Top aplikasi" />
+    <script data-ad-client="ca-pub-7055159992907440" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120235453-1"></script>
     <script>
