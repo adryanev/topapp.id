@@ -1792,16 +1792,16 @@
         },
         {
             "name": "tinymce/tinymce",
-            "version": "5.5.1",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "a436d254bc8d62e50be1fdb3d3e98981ab0e4c40"
+                "reference": "bec6271ca90b2f37db48a955697746c1f58b9358"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/a436d254bc8d62e50be1fdb3d3e98981ab0e4c40",
-                "reference": "a436d254bc8d62e50be1fdb3d3e98981ab0e4c40",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/bec6271ca90b2f37db48a955697746c1f58b9358",
+                "reference": "bec6271ca90b2f37db48a955697746c1f58b9358",
                 "shasum": ""
             },
             "type": "component",
@@ -1811,12 +1811,14 @@
                         "tinymce.js",
                         "plugins/*/plugin.js",
                         "themes/*/theme.js",
-                        "themes/*/icons.js"
+                        "models/*/model.js",
+                        "icons/*/icons.js"
                     ],
                     "files": [
                         "tinymce.min.js",
                         "plugins/*/plugin.min.js",
                         "themes/*/theme.min.js",
+                        "models/*/model.min.js",
                         "skins/**",
                         "icons/*/icons.min.js"
                     ]
@@ -1824,19 +1826,28 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-2.1-only"
+                "MIT-only"
             ],
             "description": "Web based JavaScript HTML WYSIWYG editor control.",
-            "homepage": "http://www.tinymce.com",
+            "homepage": "https://www.tiny.cloud/",
             "keywords": [
-                "editor",
+                "contenteditable",
+                "editing",
                 "html",
                 "javascript",
+                "rich editor",
+                "rich text",
+                "rich text editor",
                 "richtext",
+                "rte",
+                "text",
                 "tinymce",
                 "wysiwyg"
             ],
-            "time": "2020-10-01T05:31:22+00:00"
+            "support": {
+                "source": "https://github.com/tinymce/tinymce-dist/tree/6.3.1"
+            },
+            "time": "2022-12-06T02:19:08+00:00"
         },
         {
             "name": "yii2mod/yii2-sweet-alert",
@@ -5067,5 +5078,6 @@
     "platform": {
         "php": ">=5.4.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
